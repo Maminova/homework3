@@ -35,7 +35,7 @@ public class Main {
         if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS");
         }
-       // Задание 2
+        // Задание 2
         int clientDeviceYear = 2010;
         int operatingSystem = 0;
         if (clientDeviceYear < 2015 && operatingSystem == 0){
@@ -51,7 +51,7 @@ public class Main {
         } else {
             System.out.println("Год не является високосным");
         }
-       // Задание 4
+        // Задание 4
         int deliveryDistance = 95;
         if (deliveryDistance < 20){
             System.out.println("Потребуется один день");
@@ -65,6 +65,7 @@ public class Main {
         switch (monthNumber) {
             case 1:
             case 2:
+            case 12:
                 System.out.println("Зима");
                 break;
             case 3:
@@ -82,16 +83,13 @@ public class Main {
             case 11:
                 System.out.println("Осень");
                 break;
-            case 12:
-                System.out.println("Зима");
-                break;
             default:
                 System.out.println("Такого месяца не существует");
 
         }
 
 
-        }
+    }
 
 }
 
