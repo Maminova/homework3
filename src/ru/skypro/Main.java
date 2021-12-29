@@ -23,7 +23,7 @@ public class Main {
         }
         // Задание 3
         int year = 2021;
-        boolean isLeapYear = ((year%100 == 0) && (year%4==0) || (year%400==0));
+        boolean isLeapYear = ((year%100 != 0) && (year%4==0) || (year%400==0));
         if (isLeapYear) {
             System.out.println("Год является високосным" + year);
         } else {
