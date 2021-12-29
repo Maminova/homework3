@@ -1,32 +1,10 @@
 package ru.skypro;
 
-import java.sql.SQLOutput;
-
 public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        int age = 17;
-        if (age >= 18) {
-            System.out.println("Ты можешь водить машину");
-        } else {
-            System.out.println("Ты не можешь водить машину");
-        }
-        int varAage = 19;
-        if (age >= 18 && age < 21) {
-            System.out.println("ты достаточно взрослый, чтобы водить, но недостаточно, чтобы пить алкоголь ");
-        }
-        if (age <7 || age > 18) {
-            System.out.println("Я думаю ты не ходишь в школу");
-        }
-        int varAble  = 19;
-        boolean canNotGoToSchool = age < 7  || age > 18;
-        if (age >= 18 && age < 21) {
-            System.out.println("ты достаточно взрослый, чтобы водить, но недостаточно, чтобы пить алкоголь ");
-        }
-        if (canNotGoToSchool){
-            System.out.println("Я думаю ты не ходишь в школу");
-        }
+
         // Задание 1
         int clientOS = 1;
         if (clientOS == 1) {
