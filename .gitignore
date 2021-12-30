@@ -1,4 +1,5 @@
 /homework3.iml
-/.idea/
-*. iml
-
+.idea/
+*.iml
+out/
+hs_err_pid*
